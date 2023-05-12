@@ -1,6 +1,6 @@
 package com.api.location.domain
 
-import com.api.shared.application.helpers.dto.PolygonWithVehicles
+import com.api.shared.application.dto.PolygonWithVehicles
 
 
 interface PolygonRepository {

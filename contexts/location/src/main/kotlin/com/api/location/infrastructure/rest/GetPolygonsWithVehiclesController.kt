@@ -2,7 +2,7 @@ package com.api.location.infrastructure.rest
 
 
 import com.api.location.application.GetPolygonsWithVehiclesHandler
-import com.api.shared.application.helpers.dto.PolygonWithVehiclesList
+import com.api.shared.application.dto.PolygonWithVehiclesList
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping

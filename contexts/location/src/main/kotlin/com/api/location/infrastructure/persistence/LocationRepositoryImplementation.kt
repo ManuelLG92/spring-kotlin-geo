@@ -5,9 +5,8 @@ import com.api.location.domain.Polygon as PolygonDomain
 import com.api.location.domain.PolygonRepository
 import com.api.location.infrastructure.dto.input.Polygons
 import com.api.location.infrastructure.dto.input.Vehicle
-import com.api.shared.application.helpers.dto.PolygonWithVehicles
+import com.api.shared.application.dto.PolygonWithVehicles
 import com.api.location.infrastructure.mappers.PolygonsArray
-import com.api.shared.infrastructure.exceptions.BadRequestException
 import com.api.shared.infrastructure.gateway.EndpointCall
 import com.api.shared.infrastructure.gateway.Gateway
 import com.api.shared.infrastructure.gateway.GatewayOps

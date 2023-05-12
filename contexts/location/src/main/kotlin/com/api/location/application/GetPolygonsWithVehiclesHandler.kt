@@ -2,7 +2,7 @@ package com.api.location.application
 
 import com.api.shared.application.helpers.UseCaseHandlerWithoutParameters
 import com.api.location.domain.PolygonRepository
-import com.api.shared.application.helpers.dto.PolygonWithVehicles
+import com.api.shared.application.dto.PolygonWithVehicles
 import org.springframework.stereotype.Component
 
 @Component

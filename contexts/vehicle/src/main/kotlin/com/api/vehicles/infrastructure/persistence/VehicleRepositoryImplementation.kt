@@ -20,6 +20,7 @@ data class PositionDto(@JsonProperty("latitude") val latitude: String, @JsonProp
 data class VehicleDto(
     @JsonProperty("id") override val id: String,
     @JsonProperty("locationId") val locationId: String,
+    @JsonProperty("vin") val vin: String,
     @JsonProperty("numberPlate") val numberPlate: String,
     @JsonProperty("position") val position: PositionDto,
     @JsonProperty("fuel") val fuel: String,
@@ -32,7 +33,9 @@ data class ResponseDto(@JsonProperty("data") val data: List<VehicleDto>)
 class VehicleRepositoryImplementationImplementation : VehicleRepository,
     RepositoryImplementation<Vehicle>(Vehicle::class.simpleName.orEmpty()) {
     private val restTemplate = RestTemplateBuilder().build()
-    private val url: String = "TBD"
+    private val url: String =
+        "https://web-chapter-coding-challenge-api-eu-central-1.dev.architecture.ridedev.io/api/architecture/web-chapter-coding-challenge-api/vehicles/Stuttgart"
+
     private val logger = LoggerFactory.getLogger(VehicleRepository::class.toString())
 
     init {
@@ -65,6 +68,7 @@ class VehicleRepositoryImplementationImplementation : VehicleRepository,
             id = data.id,
             locationId = data.locationId,
             numberPlate = data.numberPlate,
+            vin = data.vin,
             position = Position(
                 latitude = data.position.latitude,
                 longitude = data.position.longitude

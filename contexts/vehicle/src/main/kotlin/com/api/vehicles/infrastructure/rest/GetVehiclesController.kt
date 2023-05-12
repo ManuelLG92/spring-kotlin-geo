@@ -8,6 +8,8 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
+data class ResponseDto(val data: List<Vehicle>)
+
 @RestController
 class GetVehiclesController {
 
@@ -15,8 +17,10 @@ class GetVehiclesController {
     private lateinit var handler: GetVehiclesHandler
 
     @GetMapping("vehicles")
-    fun index(): ResponseEntity<List<Vehicle>> {
+    fun index(): ResponseEntity<ResponseDto> {
         val dto = handler.execute()
-        return ResponseEntity.ok(dto)
+        val responseDto = ResponseDto(data = dto)
+        println(responseDto)
+        return ResponseEntity.ok(responseDto)
     }
 }

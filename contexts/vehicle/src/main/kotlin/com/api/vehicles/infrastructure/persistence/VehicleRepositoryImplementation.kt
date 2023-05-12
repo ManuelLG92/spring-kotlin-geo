@@ -1,15 +1,21 @@
 package com.api.vehicles.infrastructure.persistence
 
 
+import com.api.shared.application.dto.PolygonWithVehiclesList
 import com.api.shared.domain.AggregateRoot
+import com.api.shared.infrastructure.gateway.EndpointCall
+import com.api.shared.infrastructure.gateway.Gateway
+import com.api.shared.infrastructure.gateway.GatewayOps
 import com.api.shared.infrastructure.persistence.RepositoryImplementation
 import com.api.vehicles.domain.Position
-import com.api.vehicles.domain.VehicleRepository
 import com.api.vehicles.domain.Vehicle
+import com.api.vehicles.domain.VehicleRepository
 import com.fasterxml.jackson.annotation.JsonProperty
-import org.slf4j.LoggerFactory
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.boot.context.event.ApplicationReadyEvent
 import org.springframework.boot.web.client.RestTemplateBuilder
 import org.springframework.context.annotation.Bean
+import org.springframework.context.event.EventListener
 import org.springframework.stereotype.Component
 import org.springframework.web.client.RestTemplate
 import org.springframework.web.client.getForObject
@@ -29,27 +35,31 @@ data class VehicleDto(
 
 data class ResponseDto(@JsonProperty("data") val data: List<VehicleDto>)
 
+
 @Component
 class VehicleRepositoryImplementationImplementation : VehicleRepository,
     RepositoryImplementation<Vehicle>(Vehicle::class.simpleName.orEmpty()) {
+
+    @Autowired
+    private lateinit var gateway: Gateway
+
     private val restTemplate = RestTemplateBuilder().build()
     private val url: String =
         "https://web-chapter-coding-challenge-api-eu-central-1.dev.architecture.ridedev.io/api/architecture/web-chapter-coding-challenge-api/vehicles/Stuttgart"
 
-    private val logger = LoggerFactory.getLogger(VehicleRepository::class.toString())
-
-    init {
+    @EventListener(classes = [ApplicationReadyEvent::class])
+    fun handleMultipleEventsOnStartUp() {
         val data = getVehicles()
-        updateVehicles(data)
-        logger.info("Vehicles fetched")
+        loadVehicles(data)
     }
 
     private final fun getVehicles(): List<VehicleDto> {
         val data = restTemplate.getForObject<ResponseDto>(url)
-        return data.data;
+        return data.data
     }
 
-    private final fun updateVehicles(data: List<VehicleDto>) {
+
+    private final fun loadVehicles(data: List<VehicleDto>) {
         val backUp = getAll()
         try {
             reset()
@@ -57,10 +67,24 @@ class VehicleRepositoryImplementationImplementation : VehicleRepository,
                 val vehicle = vehicleFactory(it)
                 save(vehicle)
             }
+            setPolygonsToVehicles()
         } catch (exception: Exception) {
+            println("error $exception")
             backUp.forEach { save(it) }
         }
+    }
 
+    private fun setPolygonsToVehicles() {
+        val data = gateway.getCall<PolygonWithVehiclesList>(EndpointCall(op = GatewayOps.GET_POLYGONS_WITH_VEHICLES))
+        val vehicles = getAll()
+        vehicles.forEach { vehicle ->
+            data.data.forEach { polygon ->
+                if (polygon.vehicles.contains(vehicle.vin)) {
+                    vehicle.setPolygon(polygon.id)
+                }
+            }
+            update(vehicle)
+        }
     }
 
     fun vehicleFactory(data: VehicleDto): Vehicle {
@@ -77,6 +101,7 @@ class VehicleRepositoryImplementationImplementation : VehicleRepository,
             model = data.model
         )
     }
+
 }
 
 

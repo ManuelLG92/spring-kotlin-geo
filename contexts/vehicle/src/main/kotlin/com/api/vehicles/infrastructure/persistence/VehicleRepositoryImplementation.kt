@@ -48,7 +48,7 @@ class VehicleRepositoryImplementationImplementation : VehicleRepository,
         "https://web-chapter-coding-challenge-api-eu-central-1.dev.architecture.ridedev.io/api/architecture/web-chapter-coding-challenge-api/vehicles/Stuttgart"
 
     @EventListener(classes = [ApplicationReadyEvent::class])
-    fun handleMultipleEventsOnStartUp() {
+    fun handlePopulateVehiclesOnStartUp() {
         val data = getVehicles()
         loadVehicles(data)
     }
@@ -89,7 +89,7 @@ class VehicleRepositoryImplementationImplementation : VehicleRepository,
 
     fun vehicleFactory(data: VehicleDto): Vehicle {
         return Vehicle(
-            id = data.id,
+            id = data.vin,
             locationId = data.locationId,
             numberPlate = data.numberPlate,
             vin = data.vin,

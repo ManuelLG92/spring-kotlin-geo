@@ -7,4 +7,5 @@ interface PolygonRepository {
     fun get(id: String): Polygon
     fun getAll(): List<Polygon>
     fun getPolygonsWithVehicles(): List<PolygonWithVehicles>
+    fun getPolygonByIDWithVehicles(id: String): PolygonWithVehicles
 }

@@ -31,15 +31,20 @@ class PolygonRepositoryImplementationImplementation : PolygonRepository,
     @Autowired
     private lateinit var gateway: Gateway
 
+    @Autowired
+    private lateinit var helpers: Helpers
+
     private final val polygonFilePath = "src/main/resources/polygons.json"
     private final val polygonMutableMap: MutableMap<String, Polygon> = mutableMapOf()
 
 
     init {
-
         val polygonsArray: Array<Polygons> = PolygonsArray.loadFromJson(polygonFilePath)
+        initMapPolygonFromJsonToPolygonDomainAndPersist(data = polygonsArray)
+    }
 
-        polygonsArray.forEach {
+    final fun initMapPolygonFromJsonToPolygonDomainAndPersist(data: Array<Polygons>) {
+        data.forEach {
             val coordinatesList: MutableList<LatLng> = mutableListOf()
             val coordinates = it.geometry.coordinates[0]
             coordinates.forEach { coordinate ->
@@ -56,54 +61,21 @@ class PolygonRepositoryImplementationImplementation : PolygonRepository,
 
             save(polygonDomain)
         }
-
     }
 
     override fun getPolygonsWithVehicles(): List<PolygonWithVehicles> {
         val vehicles = getVehicles()
-        val polygonMutableMap2: MutableMap<String, MutableList<String>> = mutableMapOf()
-        vehicles.forEach { mapVehicleWithPolygonCollection(it, polygonMutableMap2) }
-        print("mapVehicles size: ")
-        println(polygonMutableMap2.size)
-        return polygonWithVehiclesList(polygonMutableMap2)
-    }
-
-
-    fun polygonWithVehiclesList(map: MutableMap<String, MutableList<String>>): List<PolygonWithVehicles> {
-        val list = mutableListOf<PolygonWithVehicles>()
-        map.forEach {
-            val polygonWithVehicles = PolygonWithVehicles(
-                id = it.key,
-                vehicles = it.value
+        val polygonWithVehiclesMutableMap: MutableMap<String, MutableList<String>> = mutableMapOf()
+        vehicles.forEach {
+            helpers.mapVehicleWithPolygonCollection(
+                it,
+                polygonWithVehiclesMutableMap,
+                polygonMutableMap
             )
-            list.add(polygonWithVehicles)
         }
-        return list
+        return helpers.polygonWithVehiclesList(polygonWithVehiclesMutableMap)
     }
 
-    fun mapVehicleWithPolygonCollection(vehicle: Vehicle, map: MutableMap<String, MutableList<String>>) {
-        polygonMutableMap.forEach { polygonMap ->
-            val point = Point(
-                longitude = vehicle.position.longitude.toDouble(),
-                latitude = vehicle.position.latitude.toDouble()
-            )
-            val isInThePolygon = isThePointInsideThePolygon(polygonMap.value, point)
-            if (isInThePolygon) {
-                val currentPolygonInTheMapByKey = map[polygonMap.key]
-                val vehicleVin = vehicle.vin
-                if (currentPolygonInTheMapByKey.isNullOrEmpty()) {
-                    map[polygonMap.key] = mutableListOf(vehicleVin)
-                } else {
-                    currentPolygonInTheMapByKey.add(vehicleVin)
-                    map[polygonMap.key] = currentPolygonInTheMapByKey
-                }
-            }
-        }
-    }
-
-    fun isThePointInsideThePolygon(polygon: Polygon, point: Point): Boolean {
-        return polygon.contains(point = point)
-    }
 
     override fun getPolygonByIDWithVehicles(id: String): PolygonWithVehicles {
         val polygon = get(id = id)
@@ -116,7 +88,7 @@ class PolygonRepositoryImplementationImplementation : PolygonRepository,
                 longitude = it.position.longitude.toDouble(),
                 latitude = it.position.latitude.toDouble()
             )
-            if (isThePointInsideThePolygon(
+            if (helpers.isThePointInsideThePolygon(
                     polygon = polygonCalculated,
                     point = point
                 )

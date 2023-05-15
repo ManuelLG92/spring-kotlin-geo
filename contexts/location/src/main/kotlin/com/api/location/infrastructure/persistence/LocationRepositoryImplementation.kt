@@ -27,7 +27,7 @@ data class ResponseDtoVehicles(@JsonProperty("data") val data: List<Vehicle>)
 class PolygonRepositoryImplementationImplementation(
     private val gateway: Gateway,
     private val helpers: Helpers,
-    polygonsArray: PolygonsArray
+    private val polygonsArray: PolygonsArray
 ) : PolygonRepository,
     RepositoryImplementation<PolygonDomain>(PolygonDomain::class.toString()) {
 
@@ -36,8 +36,8 @@ class PolygonRepositoryImplementationImplementation(
 
 
     init {
-        val polygonsArray: Array<Polygons> = polygonsArray.loadFromJson(polygonFilePath)
-        initMapPolygonFromJsonToPolygonDomainAndPersistThem(data = polygonsArray)
+        val polygonsArrayResponse: Array<Polygons> = this.polygonsArray.loadFromJson(polygonFilePath)
+        initMapPolygonFromJsonToPolygonDomainAndPersistThem(data = polygonsArrayResponse)
     }
 
     private final fun initMapPolygonFromJsonToPolygonDomainAndPersistThem(data: Array<Polygons>) {
@@ -98,9 +98,8 @@ class PolygonRepositoryImplementationImplementation(
 
     }
 
-    final fun getVehicles(): List<Vehicle> {
+    private final fun getVehicles(): List<Vehicle> {
         val data = gateway.getCall<ResponseDtoVehicles>(EndpointCall(op = GatewayOps.GET_VEHICLES))
-        println("get vehicles data $data")
         return data.data
     }
 

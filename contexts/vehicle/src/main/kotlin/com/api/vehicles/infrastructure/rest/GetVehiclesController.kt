@@ -20,14 +20,13 @@ class GetVehiclesController {
     private lateinit var handler: GetVehiclesHandler
 
     @Autowired
-    
+
     private lateinit var handler2: GetVehiclesByVinHandler
 
     @GetMapping("vehicles")
     fun index(): ResponseEntity<ListResponse<Vehicle>> {
         val dto = handler.execute()
         val responseDto = ListResponse(data = dto)
-        println(responseDto)
         return ResponseEntity.ok(responseDto)
     }
 
@@ -35,7 +34,6 @@ class GetVehiclesController {
     fun getByVin(@PathVariable vin: String): ResponseEntity<Response<Vehicle>> {
         val dto = handler2.execute(vin)
         val responseDto = Response(data = dto)
-        println(responseDto)
         return ResponseEntity.ok(responseDto)
     }
 }

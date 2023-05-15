@@ -30,7 +30,6 @@ class Gateway {
             )
         }
         val url = Utils().buildUrl(endpointCall)
-        println(url)
         return restTemplate.getForObject<T>(url)
     }
 }

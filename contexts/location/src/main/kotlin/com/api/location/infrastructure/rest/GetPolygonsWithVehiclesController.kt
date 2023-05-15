@@ -32,7 +32,6 @@ class GetPolygonsWithVehiclesController {
     fun getById(@PathVariable id: String): ResponseEntity<Response<PolygonWithVehicles>> {
         val dto = getPolygonByIdWithVehiclesHandler.execute(data = id)
         val responseDto = Response(data = dto)
-        println(responseDto)
         return ResponseEntity.ok(responseDto)
     }
 }

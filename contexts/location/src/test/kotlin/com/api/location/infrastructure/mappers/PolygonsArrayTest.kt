@@ -6,8 +6,8 @@ import kotlin.test.assertTrue
 class PolygonsArrayTest {
 
     @Test
-    fun testShouldTest() {
-        val jsonPath = "src/main/resources/polygons1.json"
+    fun shouldLoadPolygonsFromJsonAndReturnArrayOfValues() {
+        val jsonPath = "src/main/resources/polygonsSingleItem.json"
         val polygonsArray = PolygonsArray()
         val result = polygonsArray.loadFromJson(jsonPath)
         assertTrue { result.size == 1 }

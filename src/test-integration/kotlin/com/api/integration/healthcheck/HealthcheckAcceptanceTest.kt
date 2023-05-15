@@ -18,7 +18,7 @@ class HealthcheckAcceptanceTest {
     private lateinit var mockMvc: MockMvc
 
     @Test
-    fun `should successfully access healthcheck`() {
+    fun shouldSuccessfullyAccessHealthcheck() {
 
         mockMvc.perform(MockMvcRequestBuilders.get("/health"))
             .andExpect(MockMvcResultMatchers.status().isOk)

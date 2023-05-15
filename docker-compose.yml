@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  application:
+    build: .
+    container_name: spring_kotlin_geo
+    ports:
+      - "8080:8080"
+    expose:
+      - 8080

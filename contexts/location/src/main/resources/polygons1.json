@@ -1,0 +1,128 @@
+[  {
+  "_id": "58a58bf685979b5415f3a39a",
+  "updatedAt": "2017-03-27T14:04:34.470Z",
+  "createdAt": "2017-02-16T11:24:38.375Z",
+  "__v": 0,
+  "name": "0",
+  "cityId": "548876e13a9424d55af738b5",
+  "legacyId": "18_92",
+  "type": "relocationzone",
+  "geoFeatures": [
+    {
+      "name": "opticalCenter",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1371735,
+          48.790337
+        ]
+      }
+    },
+    {
+      "name": "center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.137148666666667,
+          48.79031233333333
+        ]
+      }
+    }
+  ],
+  "options": {
+    "active": true,
+    "is_excluded": false,
+    "area": 0.4
+  },
+  "timedOptions": [
+    {
+      "key": "min",
+      "changesOverTime": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "max",
+      "changesOverTime": [
+        [
+          0,
+          200
+        ]
+      ]
+    },
+    {
+      "key": "idle_time",
+      "changesOverTime": [
+        [
+          0,
+          2000
+        ]
+      ]
+    },
+    {
+      "key": "revenue",
+      "changesOverTime": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "walking_range1",
+      "changesOverTime": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "walking_range2",
+      "changesOverTime": [
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.137248,
+          48.790411
+        ],
+        [
+          9.137248,
+          48.790263
+        ],
+        [
+          9.13695,
+          48.790263
+        ],
+        [
+          9.137248,
+          48.790411
+        ]
+      ]
+    ]
+  },
+  "version": 1,
+  "$computed": {
+    "activeTimedOptions": {
+      "min": 0,
+      "max": 200,
+      "idle_time": 2000,
+      "revenue": 0,
+      "walking_range1": 0,
+      "walking_range2": 0
+    }
+  }
+}
+]

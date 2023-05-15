@@ -17,7 +17,6 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import me.piruin.geok.LatLng
 import me.piruin.geok.geometry.Point
 import me.piruin.geok.geometry.Polygon
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 
 
@@ -25,25 +24,23 @@ import org.springframework.stereotype.Component
 data class ResponseDtoVehicles(@JsonProperty("data") val data: List<Vehicle>)
 
 @Component
-class PolygonRepositoryImplementationImplementation : PolygonRepository,
+class PolygonRepositoryImplementationImplementation(
+    private val gateway: Gateway,
+    private val helpers: Helpers,
+    polygonsArray: PolygonsArray
+) : PolygonRepository,
     RepositoryImplementation<PolygonDomain>(PolygonDomain::class.toString()) {
-
-    @Autowired
-    private lateinit var gateway: Gateway
-
-    @Autowired
-    private lateinit var helpers: Helpers
 
     private final val polygonFilePath = "src/main/resources/polygons.json"
     private final val polygonMutableMap: MutableMap<String, Polygon> = mutableMapOf()
 
 
     init {
-        val polygonsArray: Array<Polygons> = PolygonsArray.loadFromJson(polygonFilePath)
-        initMapPolygonFromJsonToPolygonDomainAndPersist(data = polygonsArray)
+        val polygonsArray: Array<Polygons> = polygonsArray.loadFromJson(polygonFilePath)
+        initMapPolygonFromJsonToPolygonDomainAndPersistThem(data = polygonsArray)
     }
 
-    final fun initMapPolygonFromJsonToPolygonDomainAndPersist(data: Array<Polygons>) {
+    private final fun initMapPolygonFromJsonToPolygonDomainAndPersistThem(data: Array<Polygons>) {
         data.forEach {
             val coordinatesList: MutableList<LatLng> = mutableListOf()
             val coordinates = it.geometry.coordinates[0]
@@ -101,7 +98,7 @@ class PolygonRepositoryImplementationImplementation : PolygonRepository,
 
     }
 
-    private final fun getVehicles(): List<Vehicle> {
+    final fun getVehicles(): List<Vehicle> {
         val data = gateway.getCall<ResponseDtoVehicles>(EndpointCall(op = GatewayOps.GET_VEHICLES))
         println("get vehicles data $data")
         return data.data

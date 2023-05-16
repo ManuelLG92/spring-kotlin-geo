@@ -39,7 +39,7 @@ class HelperTest {
                 it.id == keyToMap
             }
             assertTrue {
-                it.vehicles == polygonWithVehicles.get(keyToMap)
+                it.vehicles == polygonWithVehicles[keyToMap]
             }
         }
     }

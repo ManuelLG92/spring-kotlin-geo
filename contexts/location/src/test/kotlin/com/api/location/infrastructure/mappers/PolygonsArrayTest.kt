@@ -31,6 +31,7 @@ class PolygonsArrayTest {
                 )
             )
         )
+        assertTrue { firstItem.geometry.coordinates.size == expectedCoordinates.size }
         assertTrue { firstItem.geometry.coordinates == expectedCoordinates }
 
     }

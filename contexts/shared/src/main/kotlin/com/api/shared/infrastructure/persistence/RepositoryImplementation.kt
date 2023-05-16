@@ -8,10 +8,12 @@ import com.api.shared.infrastructure.exceptions.NotFoundException
 abstract class RepositoryImplementation<T : AggregateRoot>(private val entity: String) : Repository<T> {
     private var entities = mutableMapOf<String, T>()
 
+    private val formattedEntity = this.entity.split('.').last()
+
     override fun save(aggregateRoot: T) {
         when (exists(aggregateRoot.id)) {
             false -> entities[aggregateRoot.id] = aggregateRoot
-            else -> throw BadRequestException("A record with id ${aggregateRoot.id} from $entity already exists")
+            else -> throw BadRequestException("A record with id ${aggregateRoot.id} from $formattedEntity already exists")
         }
     }
 
@@ -30,7 +32,7 @@ abstract class RepositoryImplementation<T : AggregateRoot>(private val entity: S
     override fun get(id: String): T {
         entities[id].let {
             if (it is T) return it
-            throw NotFoundException("$entity id $id not found")
+            throw NotFoundException("$formattedEntity id $id not found")
         }
     }
 
@@ -43,7 +45,7 @@ abstract class RepositoryImplementation<T : AggregateRoot>(private val entity: S
 
     override fun delete(id: String) {
         entities.remove(id).let {
-            if (it === null) throw NotFoundException("$entity with $id not found")
+            if (it === null) throw NotFoundException("$formattedEntity with $id not found")
         }
     }
 

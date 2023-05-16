@@ -11,11 +11,9 @@ import com.api.vehicles.domain.Position
 import com.api.vehicles.domain.Vehicle
 import com.api.vehicles.domain.VehicleRepository
 import com.fasterxml.jackson.annotation.JsonProperty
-import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.boot.context.event.ApplicationReadyEvent
 import org.springframework.boot.web.client.RestTemplateBuilder
 import org.springframework.context.annotation.Bean
-import org.springframework.context.event.EventListener
+import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Component
 import org.springframework.web.client.RestTemplate
 import org.springframework.web.client.getForObject
@@ -37,29 +35,22 @@ data class ResponseDto(@JsonProperty("data") val data: List<VehicleDto>)
 
 
 @Component
-class VehicleRepositoryImplementationImplementation : VehicleRepository,
+class VehicleRepositoryImplementationImplementation(private val gateway: Gateway) : VehicleRepository,
     RepositoryImplementation<Vehicle>(Vehicle::class.simpleName.orEmpty()) {
-
-    @Autowired
-    private lateinit var gateway: Gateway
 
     private val restTemplate = RestTemplateBuilder().build()
     private val url: String =
         "https://web-chapter-coding-challenge-api-eu-central-1.dev.architecture.ridedev.io/api/architecture/web-chapter-coding-challenge-api/vehicles/Stuttgart"
 
-    @EventListener(classes = [ApplicationReadyEvent::class])
-    fun handlePopulateVehiclesOnStartUp() {
-        val data = getVehicles()
-        loadVehicles(data)
-    }
 
     private final fun getVehicles(): List<VehicleDto> {
         val data = restTemplate.getForObject<ResponseDto>(url)
         return data.data
     }
 
-
-    private final fun loadVehicles(data: List<VehicleDto>) {
+    @Scheduled(fixedDelay = 300000)
+    private final fun loadVehicles() {
+        val data = getVehicles()
         val backUp = getAll()
         try {
             reset()

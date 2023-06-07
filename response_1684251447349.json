@@ -1,0 +1,2068 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "locationId": 3,
+      "vin": "1GTJ6LEEXBK9DUPR2",
+      "numberPlate": "S-NM8892",
+      "position": {
+        "latitude": 48.83536294381593,
+        "longitude": 9.185763564452024
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 2,
+      "locationId": 3,
+      "vin": "2B6HB11X0XE21386M",
+      "numberPlate": "S-ZI2024",
+      "position": {
+        "latitude": 48.75798092235694,
+        "longitude": 9.13535727593849
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 3,
+      "locationId": 3,
+      "vin": "1G6DT5DD2BLU3L50E",
+      "numberPlate": "S-TM4796",
+      "position": {
+        "latitude": 48.72393481103207,
+        "longitude": 9.216893292056282
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 4,
+      "locationId": 3,
+      "vin": "JT2ZB7BA5BFF1KP2K",
+      "numberPlate": "S-YM8659",
+      "position": {
+        "latitude": 48.77905764969639,
+        "longitude": 9.255746028490195
+      },
+      "fuel": 0,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 5,
+      "locationId": 3,
+      "vin": "1GCJK84DX77W17B38",
+      "numberPlate": "S-ET1828",
+      "position": {
+        "latitude": 48.8081438853194,
+        "longitude": 9.108069867213974
+      },
+      "fuel": 0.2,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 6,
+      "locationId": 3,
+      "vin": "WVGBC67L14XH4VHH6",
+      "numberPlate": "S-QC6631",
+      "position": {
+        "latitude": 48.81714782573623,
+        "longitude": 9.15961983714732
+      },
+      "fuel": 0.3,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 7,
+      "locationId": 3,
+      "vin": "1FT1E24W59FFXJU5Z",
+      "numberPlate": "S-DP3188",
+      "position": {
+        "latitude": 48.73863145985161,
+        "longitude": 9.169454440415954
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 8,
+      "locationId": 3,
+      "vin": "1GTDT39E09LF4B0RK",
+      "numberPlate": "S-FS8470",
+      "position": {
+        "latitude": 48.741663671645824,
+        "longitude": 9.220945512567896
+      },
+      "fuel": 1,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 9,
+      "locationId": 3,
+      "vin": "1C3DC4FG7B3T0F0Z0",
+      "numberPlate": "S-FY3773",
+      "position": {
+        "latitude": 48.72248494194017,
+        "longitude": 9.180676057446686
+      },
+      "fuel": 0.7,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 10,
+      "locationId": 3,
+      "vin": "WVWHL93CX92XZZUP0",
+      "numberPlate": "S-ZB2075",
+      "position": {
+        "latitude": 48.81974514449916,
+        "longitude": 9.14603510662798
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 11,
+      "locationId": 3,
+      "vin": "1GBZGNFG3AFSP8U3K",
+      "numberPlate": "S-YG5163",
+      "position": {
+        "latitude": 48.822142818635015,
+        "longitude": 9.131201237206616
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 12,
+      "locationId": 3,
+      "vin": "1D7JE5GT5BTJCW8WB",
+      "numberPlate": "S-JF3412",
+      "position": {
+        "latitude": 48.77528284314516,
+        "longitude": 9.187445189518757
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 13,
+      "locationId": 3,
+      "vin": "YS3FH41R28V36H3VE",
+      "numberPlate": "S-BY8289",
+      "position": {
+        "latitude": 48.79985942201988,
+        "longitude": 9.102816947209675
+      },
+      "fuel": 0,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 14,
+      "locationId": 3,
+      "vin": "3D3LR29D083ZYYJMP",
+      "numberPlate": "S-WA9196",
+      "position": {
+        "latitude": 48.75455189534147,
+        "longitude": 9.128344084736245
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 15,
+      "locationId": 3,
+      "vin": "1GTV2WH26B5SNWLDZ",
+      "numberPlate": "S-CQ8196",
+      "position": {
+        "latitude": 48.808105156188,
+        "longitude": 9.145482130917726
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 16,
+      "locationId": 3,
+      "vin": "KNAFT4B27BZTHTWMP",
+      "numberPlate": "S-EO2935",
+      "position": {
+        "latitude": 48.74777106042454,
+        "longitude": 9.15834767367155
+      },
+      "fuel": 0.4,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 17,
+      "locationId": 3,
+      "vin": "1GCCS19636AZHNPB5",
+      "numberPlate": "S-OB8058",
+      "position": {
+        "latitude": 48.7734151450203,
+        "longitude": 9.214975280956805
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 18,
+      "locationId": 3,
+      "vin": "1FTWX33R79B8JL4T3",
+      "numberPlate": "S-SG1426",
+      "position": {
+        "latitude": 48.82178498002921,
+        "longitude": 9.176439296301115
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 19,
+      "locationId": 3,
+      "vin": "WVGCM67L46V3XDJKL",
+      "numberPlate": "S-WE3070",
+      "position": {
+        "latitude": 48.7844198198437,
+        "longitude": 9.200291472406711
+      },
+      "fuel": 0,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 20,
+      "locationId": 3,
+      "vin": "5NMZG3JG7BGXZDRTZ",
+      "numberPlate": "S-GF1116",
+      "position": {
+        "latitude": 48.82047032083039,
+        "longitude": 9.136045399681175
+      },
+      "fuel": 1,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 21,
+      "locationId": 3,
+      "vin": "1C3LC66V59AMFUZBE",
+      "numberPlate": "S-QY2974",
+      "position": {
+        "latitude": 48.749196607727896,
+        "longitude": 9.17063772192112
+      },
+      "fuel": 0,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 22,
+      "locationId": 3,
+      "vin": "1FTJX35F7V1280BE4",
+      "numberPlate": "S-FH8876",
+      "position": {
+        "latitude": 48.75895946533205,
+        "longitude": 9.180205362497853
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 23,
+      "locationId": 3,
+      "vin": "1J4HZ5H11B0VYB1KV",
+      "numberPlate": "S-HD5698",
+      "position": {
+        "latitude": 48.815610833063204,
+        "longitude": 9.250000651200287
+      },
+      "fuel": 0.4,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 24,
+      "locationId": 3,
+      "vin": "1FTDE3BS7BB3HE5TC",
+      "numberPlate": "S-OF8936",
+      "position": {
+        "latitude": 48.73722678610489,
+        "longitude": 9.228249573492743
+      },
+      "fuel": 0.3,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 25,
+      "locationId": 3,
+      "vin": "KNDJT2B28B1K98901",
+      "numberPlate": "S-QH1740",
+      "position": {
+        "latitude": 48.78008986032831,
+        "longitude": 9.25249086189664
+      },
+      "fuel": 1,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 26,
+      "locationId": 3,
+      "vin": "1FTJE34Z6XT46FF66",
+      "numberPlate": "S-IN2540",
+      "position": {
+        "latitude": 48.72336549355695,
+        "longitude": 9.139316329363368
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 27,
+      "locationId": 3,
+      "vin": "3FTJW30F8YD430Z8F",
+      "numberPlate": "S-EY8036",
+      "position": {
+        "latitude": 48.825793864497385,
+        "longitude": 9.171641980611357
+      },
+      "fuel": 0.1,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 28,
+      "locationId": 3,
+      "vin": "1B3ES47Y3XMK1WEDV",
+      "numberPlate": "S-BS7000",
+      "position": {
+        "latitude": 48.71600658916923,
+        "longitude": 9.187446963430943
+      },
+      "fuel": 1,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 29,
+      "locationId": 3,
+      "vin": "3B7MA46C83G6H92VY",
+      "numberPlate": "S-XE3238",
+      "position": {
+        "latitude": 48.775589171715076,
+        "longitude": 9.209933612077648
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 30,
+      "locationId": 3,
+      "vin": "1GDW7PFA5BJDVRZ2S",
+      "numberPlate": "S-RQ1519",
+      "position": {
+        "latitude": 48.795547381973336,
+        "longitude": 9.140879365115953
+      },
+      "fuel": 0.5,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 31,
+      "locationId": 3,
+      "vin": "2T3ZK33V79HVYUEXZ",
+      "numberPlate": "S-GD5241",
+      "position": {
+        "latitude": 48.7796243514221,
+        "longitude": 9.145758613390438
+      },
+      "fuel": 0,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 32,
+      "locationId": 3,
+      "vin": "3FDXW46F6YJC0XP7T",
+      "numberPlate": "S-CK6671",
+      "position": {
+        "latitude": 48.76635849613455,
+        "longitude": 9.204032806593249
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 33,
+      "locationId": 3,
+      "vin": "1FTPX12528ND6D3T2",
+      "numberPlate": "S-NU3038",
+      "position": {
+        "latitude": 48.74939752926913,
+        "longitude": 9.242051573198372
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 34,
+      "locationId": 3,
+      "vin": "1GDHG39267SEKLZXM",
+      "numberPlate": "S-QQ5837",
+      "position": {
+        "latitude": 48.77833291759171,
+        "longitude": 9.153448423305962
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 35,
+      "locationId": 3,
+      "vin": "1FTRF08L1YF2BWXSB",
+      "numberPlate": "S-WC4052",
+      "position": {
+        "latitude": 48.77677250918265,
+        "longitude": 9.09220456312729
+      },
+      "fuel": 1,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 36,
+      "locationId": 3,
+      "vin": "1G1YG25E59RFT9LFB",
+      "numberPlate": "S-FY7996",
+      "position": {
+        "latitude": 48.775304455127724,
+        "longitude": 9.11732603863891
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 37,
+      "locationId": 3,
+      "vin": "3B7MC33Z0YAJS5KLY",
+      "numberPlate": "S-JG4839",
+      "position": {
+        "latitude": 48.728470290864465,
+        "longitude": 9.211525179337775
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 38,
+      "locationId": 3,
+      "vin": "3G4AG85M0TA4DU5N3",
+      "numberPlate": "S-CM9919",
+      "position": {
+        "latitude": 48.82599639893965,
+        "longitude": 9.179815322297815
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 39,
+      "locationId": 3,
+      "vin": "1GCJTDBP1BRCAZH2U",
+      "numberPlate": "S-QS5014",
+      "position": {
+        "latitude": 48.798385970807644,
+        "longitude": 9.11320805658187
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 40,
+      "locationId": 3,
+      "vin": "JN1CV6FK2B0CLWWBK",
+      "numberPlate": "S-IW5113",
+      "position": {
+        "latitude": 48.74399405823143,
+        "longitude": 9.109012373211025
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 41,
+      "locationId": 3,
+      "vin": "3G1JC15F23PC5XCR5",
+      "numberPlate": "S-YF2127",
+      "position": {
+        "latitude": 48.78411955376571,
+        "longitude": 9.16163063718787
+      },
+      "fuel": 0,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 42,
+      "locationId": 3,
+      "vin": "1GKS2MC21BUZGD2P1",
+      "numberPlate": "S-SN8476",
+      "position": {
+        "latitude": 48.78708932638577,
+        "longitude": 9.266489504373398
+      },
+      "fuel": 0,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 43,
+      "locationId": 3,
+      "vin": "1YVGE22D7V5WSEEDM",
+      "numberPlate": "S-HN6571",
+      "position": {
+        "latitude": 48.75687844267902,
+        "longitude": 9.268815621316019
+      },
+      "fuel": 0.7,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 44,
+      "locationId": 3,
+      "vin": "YS3EH45G6YYDKVYGA",
+      "numberPlate": "S-YJ1232",
+      "position": {
+        "latitude": 48.788322927684106,
+        "longitude": 9.09407289956235
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 45,
+      "locationId": 3,
+      "vin": "1FTHE34F4TUG570KH",
+      "numberPlate": "S-FR7510",
+      "position": {
+        "latitude": 48.80107856537075,
+        "longitude": 9.264759660982413
+      },
+      "fuel": 0.5,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 46,
+      "locationId": 3,
+      "vin": "1D5HW42J265PRJTJX",
+      "numberPlate": "S-OS9054",
+      "position": {
+        "latitude": 48.80371530654132,
+        "longitude": 9.24761179062567
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 47,
+      "locationId": 3,
+      "vin": "1GTGC29124RPPKTZH",
+      "numberPlate": "S-GX6245",
+      "position": {
+        "latitude": 48.75888396003652,
+        "longitude": 9.214016797301538
+      },
+      "fuel": 0.1,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 48,
+      "locationId": 3,
+      "vin": "3GTU2VB22BZGHG4ZU",
+      "numberPlate": "S-NF9925",
+      "position": {
+        "latitude": 48.795210668786424,
+        "longitude": 9.23736650326324
+      },
+      "fuel": 0.2,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 49,
+      "locationId": 3,
+      "vin": "3GCPKTF29BD7Y5CPP",
+      "numberPlate": "S-MR4926",
+      "position": {
+        "latitude": 48.804689244742775,
+        "longitude": 9.154447130662776
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 50,
+      "locationId": 3,
+      "vin": "1D7HA18Z63K54WCGT",
+      "numberPlate": "S-MB7910",
+      "position": {
+        "latitude": 48.748710679557774,
+        "longitude": 9.112921132549149
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 51,
+      "locationId": 3,
+      "vin": "1D7LA3868470RGR8P",
+      "numberPlate": "S-FD7689",
+      "position": {
+        "latitude": 48.79073122782298,
+        "longitude": 9.26818457456708
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 52,
+      "locationId": 3,
+      "vin": "1FTEE14H0TPPVZ08Y",
+      "numberPlate": "S-JT4539",
+      "position": {
+        "latitude": 48.7422808995457,
+        "longitude": 9.210601535792472
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 53,
+      "locationId": 3,
+      "vin": "1G6DN5HV8ADEXFSGJ",
+      "numberPlate": "S-QI6363",
+      "position": {
+        "latitude": 48.76001818380263,
+        "longitude": 9.118100135135267
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 54,
+      "locationId": 3,
+      "vin": "3VWRZ31K69WV5FY8G",
+      "numberPlate": "S-TW5534",
+      "position": {
+        "latitude": 48.77222224954835,
+        "longitude": 9.259601116827584
+      },
+      "fuel": 0.1,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 55,
+      "locationId": 3,
+      "vin": "1N6BA07A87WYNB7B1",
+      "numberPlate": "S-NA7337",
+      "position": {
+        "latitude": 48.728607146583144,
+        "longitude": 9.189818429228048
+      },
+      "fuel": 0.1,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 56,
+      "locationId": 3,
+      "vin": "1GNLC4C33B1PLZ49W",
+      "numberPlate": "S-LI9404",
+      "position": {
+        "latitude": 48.82788886173064,
+        "longitude": 9.184913981168652
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 57,
+      "locationId": 3,
+      "vin": "3GCUCUFJ1B3DWEJD8",
+      "numberPlate": "S-MA3520",
+      "position": {
+        "latitude": 48.74873560605076,
+        "longitude": 9.205654891315849
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 58,
+      "locationId": 3,
+      "vin": "SALTN1543YKHBWF90",
+      "numberPlate": "S-HK2659",
+      "position": {
+        "latitude": 48.77895417704562,
+        "longitude": 9.088314697099314
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 59,
+      "locationId": 3,
+      "vin": "3D3MU46W031YB6WSN",
+      "numberPlate": "S-NH6053",
+      "position": {
+        "latitude": 48.800380453475405,
+        "longitude": 9.18308791984904
+      },
+      "fuel": 0.6,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 60,
+      "locationId": 3,
+      "vin": "WAUSF68E686WDCL3Y",
+      "numberPlate": "S-AU2229",
+      "position": {
+        "latitude": 48.7360060566332,
+        "longitude": 9.141874200692259
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 61,
+      "locationId": 3,
+      "vin": "2GBE4E1E4865FV3WJ",
+      "numberPlate": "S-WZ8174",
+      "position": {
+        "latitude": 48.821225625422834,
+        "longitude": 9.22332688621582
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 62,
+      "locationId": 3,
+      "vin": "1GTFC66T3250DKJR0",
+      "numberPlate": "S-WG5092",
+      "position": {
+        "latitude": 48.77181963680519,
+        "longitude": 9.130088989419402
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 63,
+      "locationId": 3,
+      "vin": "1C3AL56T76NR2PBMG",
+      "numberPlate": "S-LF9916",
+      "position": {
+        "latitude": 48.79064046323115,
+        "longitude": 9.161513459486127
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 64,
+      "locationId": 3,
+      "vin": "JHMFA555X9TLAY46P",
+      "numberPlate": "S-CK5576",
+      "position": {
+        "latitude": 48.756565608899145,
+        "longitude": 9.125162663674434
+      },
+      "fuel": 1,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 65,
+      "locationId": 3,
+      "vin": "1GJZ7TCG1BSCA19LV",
+      "numberPlate": "S-IG8131",
+      "position": {
+        "latitude": 48.75095980623541,
+        "longitude": 9.100286741304759
+      },
+      "fuel": 1,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 66,
+      "locationId": 3,
+      "vin": "1G6KD56927CKH7VWT",
+      "numberPlate": "S-PG9675",
+      "position": {
+        "latitude": 48.7816510958701,
+        "longitude": 9.262294211076567
+      },
+      "fuel": 0.7,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 67,
+      "locationId": 3,
+      "vin": "1GCGSCFE3BVMCF8M5",
+      "numberPlate": "S-LC1962",
+      "position": {
+        "latitude": 48.80202554714217,
+        "longitude": 9.221283347059018
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 68,
+      "locationId": 3,
+      "vin": "1GTD5MBP6B01LTBGS",
+      "numberPlate": "S-WR2370",
+      "position": {
+        "latitude": 48.81721788700534,
+        "longitude": 9.197082790941002
+      },
+      "fuel": 0.7,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 69,
+      "locationId": 3,
+      "vin": "YV1SZ59D53N8R6E8G",
+      "numberPlate": "S-GF5294",
+      "position": {
+        "latitude": 48.810646078868636,
+        "longitude": 9.195924123707398
+      },
+      "fuel": 0.8,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 70,
+      "locationId": 3,
+      "vin": "1GC4KYBK6ABBP2C73",
+      "numberPlate": "S-EL5843",
+      "position": {
+        "latitude": 48.82771176657864,
+        "longitude": 9.220843696153535
+      },
+      "fuel": 0.5,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 71,
+      "locationId": 3,
+      "vin": "1GBWGLCL0B4CR99EX",
+      "numberPlate": "S-WK8715",
+      "position": {
+        "latitude": 48.771289409808006,
+        "longitude": 9.112948945747293
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 72,
+      "locationId": 3,
+      "vin": "3GYFNKC61BTNDFPZ6",
+      "numberPlate": "S-YK7453",
+      "position": {
+        "latitude": 48.72449819457938,
+        "longitude": 9.167515829197232
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 73,
+      "locationId": 3,
+      "vin": "1GCHC59K29X135K5U",
+      "numberPlate": "S-KG8028",
+      "position": {
+        "latitude": 48.739450665595335,
+        "longitude": 9.189822349579545
+      },
+      "fuel": 0.7,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 74,
+      "locationId": 3,
+      "vin": "1GT3K0B62A1E3F82E",
+      "numberPlate": "S-QS7618",
+      "position": {
+        "latitude": 48.73916702174787,
+        "longitude": 9.169889775373262
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 75,
+      "locationId": 3,
+      "vin": "3GBE4E19490B5KA9F",
+      "numberPlate": "S-FK8868",
+      "position": {
+        "latitude": 48.801730546124695,
+        "longitude": 9.244267707399773
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 76,
+      "locationId": 3,
+      "vin": "WVWNE63B35GRB9FLG",
+      "numberPlate": "S-JP6492",
+      "position": {
+        "latitude": 48.80716264205476,
+        "longitude": 9.161108988832257
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 77,
+      "locationId": 3,
+      "vin": "3GNCA85D98K2VRT27",
+      "numberPlate": "S-TQ5820",
+      "position": {
+        "latitude": 48.80804765906418,
+        "longitude": 9.111758188350384
+      },
+      "fuel": 0.6,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 78,
+      "locationId": 3,
+      "vin": "1FTSX31F8YUAMXPJ2",
+      "numberPlate": "S-JK7168",
+      "position": {
+        "latitude": 48.82495736584222,
+        "longitude": 9.128712360398868
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 79,
+      "locationId": 3,
+      "vin": "WAUSG68E464H73SB4",
+      "numberPlate": "S-WP7056",
+      "position": {
+        "latitude": 48.81047657139836,
+        "longitude": 9.120124886432725
+      },
+      "fuel": 0.6,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 80,
+      "locationId": 3,
+      "vin": "1GNZGRDG1AK9GPLNC",
+      "numberPlate": "S-WT7818",
+      "position": {
+        "latitude": 48.750322852051255,
+        "longitude": 9.229649280032111
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 81,
+      "locationId": 3,
+      "vin": "3B7MU48W03GLT2ACX",
+      "numberPlate": "S-JR2598",
+      "position": {
+        "latitude": 48.76379774526678,
+        "longitude": 9.123975223757782
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 82,
+      "locationId": 3,
+      "vin": "2D4GN11H1885JR644",
+      "numberPlate": "S-WY4366",
+      "position": {
+        "latitude": 48.72460793440465,
+        "longitude": 9.217386901739191
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 83,
+      "locationId": 3,
+      "vin": "WAUHE78P493TVWGFE",
+      "numberPlate": "S-EE9332",
+      "position": {
+        "latitude": 48.82473686176688,
+        "longitude": 9.123248992820232
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 84,
+      "locationId": 3,
+      "vin": "4T3ZF13C9YTPES4BU",
+      "numberPlate": "S-BO2410",
+      "position": {
+        "latitude": 48.77079231428939,
+        "longitude": 9.234908438882504
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 85,
+      "locationId": 3,
+      "vin": "1GJ2GYDG5AZHV58UL",
+      "numberPlate": "S-KL9408",
+      "position": {
+        "latitude": 48.764450590449684,
+        "longitude": 9.09195796121937
+      },
+      "fuel": 0.2,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 86,
+      "locationId": 3,
+      "vin": "1GKFK26359MPEG0AY",
+      "numberPlate": "S-DD3853",
+      "position": {
+        "latitude": 48.815879213336714,
+        "longitude": 9.249894791120305
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 87,
+      "locationId": 3,
+      "vin": "1D3KU28C14N34GKBZ",
+      "numberPlate": "S-XU6718",
+      "position": {
+        "latitude": 48.76768010390978,
+        "longitude": 9.239747828972115
+      },
+      "fuel": 0.1,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 88,
+      "locationId": 3,
+      "vin": "KL5JJ82Z66SWLWDP0",
+      "numberPlate": "S-LG9726",
+      "position": {
+        "latitude": 48.799025101551166,
+        "longitude": 9.186368535717646
+      },
+      "fuel": 0.5,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 89,
+      "locationId": 3,
+      "vin": "1N4BL2AE0B6EVLD22",
+      "numberPlate": "S-OE8346",
+      "position": {
+        "latitude": 48.754605736845406,
+        "longitude": 9.266441060520238
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 90,
+      "locationId": 3,
+      "vin": "YV1TS92D34BCLJJK3",
+      "numberPlate": "S-CN3302",
+      "position": {
+        "latitude": 48.758419811358266,
+        "longitude": 9.194297380386764
+      },
+      "fuel": 0.4,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 91,
+      "locationId": 3,
+      "vin": "KNDJE723X9MVV1UNS",
+      "numberPlate": "S-JZ2151",
+      "position": {
+        "latitude": 48.8149135249908,
+        "longitude": 9.21555616180634
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 92,
+      "locationId": 3,
+      "vin": "1G8MB3CX3A1SJEGGS",
+      "numberPlate": "S-EA6542",
+      "position": {
+        "latitude": 48.72378155402643,
+        "longitude": 9.212959206997631
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 93,
+      "locationId": 3,
+      "vin": "JM1BL1K4XBDH44N9N",
+      "numberPlate": "S-WZ8053",
+      "position": {
+        "latitude": 48.760761556647935,
+        "longitude": 9.236131864806486
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 94,
+      "locationId": 3,
+      "vin": "1GTJ5ME99B2CTCTHG",
+      "numberPlate": "S-QS4659",
+      "position": {
+        "latitude": 48.74636393734986,
+        "longitude": 9.250700441868613
+      },
+      "fuel": 0,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 95,
+      "locationId": 3,
+      "vin": "1FTHF36F2VNDJ93X5",
+      "numberPlate": "S-ZI6490",
+      "position": {
+        "latitude": 48.81102378504133,
+        "longitude": 9.132666866763744
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 96,
+      "locationId": 3,
+      "vin": "1GNSGBE42BUMFREEF",
+      "numberPlate": "S-AE2559",
+      "position": {
+        "latitude": 48.801680273776775,
+        "longitude": 9.234367574995002
+      },
+      "fuel": 0.1,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 97,
+      "locationId": 3,
+      "vin": "JHMEJ8644YU9L5F96",
+      "numberPlate": "S-KX2318",
+      "position": {
+        "latitude": 48.78304296110899,
+        "longitude": 9.155322979121511
+      },
+      "fuel": 0.1,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 98,
+      "locationId": 3,
+      "vin": "2CNALBCC8B7ATLCDD",
+      "numberPlate": "S-DH5297",
+      "position": {
+        "latitude": 48.83453341195825,
+        "longitude": 9.219726852429185
+      },
+      "fuel": 0.6,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 99,
+      "locationId": 3,
+      "vin": "1FTEX3D50AL0B7LP9",
+      "numberPlate": "S-PN3724",
+      "position": {
+        "latitude": 48.73746403984434,
+        "longitude": 9.21070689417746
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 100,
+      "locationId": 3,
+      "vin": "1GNUKAE06A79U3ZGC",
+      "numberPlate": "S-YN7453",
+      "position": {
+        "latitude": 48.78243334358451,
+        "longitude": 9.155714138433147
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 101,
+      "locationId": 3,
+      "vin": "4S3BMBB66BVEBW4HF",
+      "numberPlate": "S-WA9011",
+      "position": {
+        "latitude": 48.78430621053806,
+        "longitude": 9.258953664568953
+      },
+      "fuel": 0.2,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 102,
+      "locationId": 3,
+      "vin": "1GTHC89K69PC40VJ4",
+      "numberPlate": "S-JH8908",
+      "position": {
+        "latitude": 48.72774146769457,
+        "longitude": 9.230036467049672
+      },
+      "fuel": 0,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 103,
+      "locationId": 3,
+      "vin": "3GTEC64V66A3X6XZ5",
+      "numberPlate": "S-QF4595",
+      "position": {
+        "latitude": 48.72630297937034,
+        "longitude": 9.189101545779387
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 104,
+      "locationId": 3,
+      "vin": "3GCDA25D58JUTBLLZ",
+      "numberPlate": "S-AJ5629",
+      "position": {
+        "latitude": 48.80116748704428,
+        "longitude": 9.220193200525333
+      },
+      "fuel": 0.2,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 105,
+      "locationId": 3,
+      "vin": "SAJDA82C86WU7AURZ",
+      "numberPlate": "S-SP8349",
+      "position": {
+        "latitude": 48.734340856926146,
+        "longitude": 9.189692588503267
+      },
+      "fuel": 1,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 106,
+      "locationId": 3,
+      "vin": "YV1LS5667VB5L3M8U",
+      "numberPlate": "S-BO3720",
+      "position": {
+        "latitude": 48.727563599790585,
+        "longitude": 9.18264561357723
+      },
+      "fuel": 0.1,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 107,
+      "locationId": 3,
+      "vin": "3FTZX08601LDXHR5A",
+      "numberPlate": "S-JZ6427",
+      "position": {
+        "latitude": 48.750784448098884,
+        "longitude": 9.21321534986285
+      },
+      "fuel": 0.2,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 108,
+      "locationId": 3,
+      "vin": "1GTGC76U92CFEV6E5",
+      "numberPlate": "S-BS6536",
+      "position": {
+        "latitude": 48.742355501550335,
+        "longitude": 9.216390536580299
+      },
+      "fuel": 0.1,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 109,
+      "locationId": 3,
+      "vin": "KM8ZK3KB3B6CALYR5",
+      "numberPlate": "S-TF5292",
+      "position": {
+        "latitude": 48.74809200219016,
+        "longitude": 9.141749819974692
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 110,
+      "locationId": 3,
+      "vin": "1GKS2FDJ4BJM6LLK0",
+      "numberPlate": "S-MW6974",
+      "position": {
+        "latitude": 48.81217919264165,
+        "longitude": 9.25284103126948
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 111,
+      "locationId": 3,
+      "vin": "1GCZGUBL4BARM7A22",
+      "numberPlate": "S-ZS6442",
+      "position": {
+        "latitude": 48.817570077193345,
+        "longitude": 9.208359419118572
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 112,
+      "locationId": 3,
+      "vin": "3HGCM82435EHE049D",
+      "numberPlate": "S-LP3579",
+      "position": {
+        "latitude": 48.83293262563254,
+        "longitude": 9.16112464269291
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 113,
+      "locationId": 3,
+      "vin": "2FTSW31S3YA18UFPG",
+      "numberPlate": "S-XO2885",
+      "position": {
+        "latitude": 48.737557303836795,
+        "longitude": 9.191848215354357
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 114,
+      "locationId": 3,
+      "vin": "1GC0KVFL1B6FL7AMP",
+      "numberPlate": "S-BO6159",
+      "position": {
+        "latitude": 48.79755797563608,
+        "longitude": 9.122258325337834
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 115,
+      "locationId": 3,
+      "vin": "5GZDV33L25H8SH8DM",
+      "numberPlate": "S-PW4969",
+      "position": {
+        "latitude": 48.802432806035014,
+        "longitude": 9.215699034375895
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 116,
+      "locationId": 3,
+      "vin": "3FAHP08129BBH4V14",
+      "numberPlate": "S-RN4234",
+      "position": {
+        "latitude": 48.73221140684515,
+        "longitude": 9.124901662521914
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 117,
+      "locationId": 3,
+      "vin": "2A8GR44HX8F0KU1HL",
+      "numberPlate": "S-EL8152",
+      "position": {
+        "latitude": 48.76989394383978,
+        "longitude": 9.090808851596552
+      },
+      "fuel": 0.6,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 118,
+      "locationId": 3,
+      "vin": "1GCPCSH03BP2C5M30",
+      "numberPlate": "S-PE1106",
+      "position": {
+        "latitude": 48.756690489434106,
+        "longitude": 9.099060613820786
+      },
+      "fuel": 0.2,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 119,
+      "locationId": 3,
+      "vin": "1GC1KVEGXBJP0ZAFK",
+      "numberPlate": "S-JU8825",
+      "position": {
+        "latitude": 48.8019548879444,
+        "longitude": 9.210264390784538
+      },
+      "fuel": 0,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 120,
+      "locationId": 3,
+      "vin": "WVWDB31F88HWANYK8",
+      "numberPlate": "S-NA5312",
+      "position": {
+        "latitude": 48.81797429293578,
+        "longitude": 9.176682319937745
+      },
+      "fuel": 0.4,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 121,
+      "locationId": 3,
+      "vin": "2CNALFBC3BJA5CSTP",
+      "numberPlate": "S-MY3325",
+      "position": {
+        "latitude": 48.81684980812692,
+        "longitude": 9.180564073426671
+      },
+      "fuel": 0,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 122,
+      "locationId": 3,
+      "vin": "JE3AA31C2TN7ZR6P8",
+      "numberPlate": "S-HZ3865",
+      "position": {
+        "latitude": 48.75066676830561,
+        "longitude": 9.111337367461301
+      },
+      "fuel": 0.1,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 123,
+      "locationId": 3,
+      "vin": "3FTJF35G0VUKCESRG",
+      "numberPlate": "S-MI7859",
+      "position": {
+        "latitude": 48.78169457025227,
+        "longitude": 9.096413547641628
+      },
+      "fuel": 0.6,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 124,
+      "locationId": 3,
+      "vin": "1GNES16P84PTS7BHZ",
+      "numberPlate": "S-CW7313",
+      "position": {
+        "latitude": 48.75550304848232,
+        "longitude": 9.215251145686718
+      },
+      "fuel": 1,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 125,
+      "locationId": 3,
+      "vin": "1GCJSDEP2BPCLTJN8",
+      "numberPlate": "S-ZK3366",
+      "position": {
+        "latitude": 48.7682855561659,
+        "longitude": 9.204007935093488
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 126,
+      "locationId": 3,
+      "vin": "1FTRE1464YAVWSGNX",
+      "numberPlate": "S-CI1160",
+      "position": {
+        "latitude": 48.76362869838181,
+        "longitude": 9.26686540982356
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 127,
+      "locationId": 3,
+      "vin": "1FTCR10C5YV4J13H9",
+      "numberPlate": "S-OF8943",
+      "position": {
+        "latitude": 48.826236332805706,
+        "longitude": 9.19474565124732
+      },
+      "fuel": 0.7,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 128,
+      "locationId": 3,
+      "vin": "KNADC125153RYT3ZT",
+      "numberPlate": "S-BP5898",
+      "position": {
+        "latitude": 48.79061894856791,
+        "longitude": 9.258170696377892
+      },
+      "fuel": 0.4,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 129,
+      "locationId": 3,
+      "vin": "1GJZ71DG3BW3A3VFG",
+      "numberPlate": "S-LZ9329",
+      "position": {
+        "latitude": 48.759635375967655,
+        "longitude": 9.260951812206141
+      },
+      "fuel": 0.2,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 130,
+      "locationId": 3,
+      "vin": "JHMRA1876VSVYZJXT",
+      "numberPlate": "S-OJ3941",
+      "position": {
+        "latitude": 48.76537708081967,
+        "longitude": 9.213874318139116
+      },
+      "fuel": 0.4,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 131,
+      "locationId": 3,
+      "vin": "WBAGG8335XVN8ADPB",
+      "numberPlate": "S-LM5110",
+      "position": {
+        "latitude": 48.722141032781956,
+        "longitude": 9.164432047832548
+      },
+      "fuel": 1,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 132,
+      "locationId": 3,
+      "vin": "1GTJTFDE7AAMJZK6X",
+      "numberPlate": "S-LN9952",
+      "position": {
+        "latitude": 48.75212044627565,
+        "longitude": 9.25734488511673
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 133,
+      "locationId": 3,
+      "vin": "1G6DG8EG4AYZGB0MN",
+      "numberPlate": "S-JW2918",
+      "position": {
+        "latitude": 48.729303877711075,
+        "longitude": 9.218440000161396
+      },
+      "fuel": 0.9,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 134,
+      "locationId": 3,
+      "vin": "1GCZGUCL9B9XBHH9G",
+      "numberPlate": "S-DH8268",
+      "position": {
+        "latitude": 48.76944232833658,
+        "longitude": 9.140703629793995
+      },
+      "fuel": 0.1,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 135,
+      "locationId": 3,
+      "vin": "3FADP0DC4B7LLL1GW",
+      "numberPlate": "S-NG4872",
+      "position": {
+        "latitude": 48.81187443455755,
+        "longitude": 9.15240341670218
+      },
+      "fuel": 0.1,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 136,
+      "locationId": 3,
+      "vin": "1FMSS31M8Y0LYLXXF",
+      "numberPlate": "S-OI4214",
+      "position": {
+        "latitude": 48.81194879283817,
+        "longitude": 9.172726699457336
+      },
+      "fuel": 0.6,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 137,
+      "locationId": 3,
+      "vin": "1FMEU16W1Y29LAANG",
+      "numberPlate": "S-RZ4665",
+      "position": {
+        "latitude": 48.75213573518255,
+        "longitude": 9.118905872332782
+      },
+      "fuel": 0.2,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 138,
+      "locationId": 3,
+      "vin": "1GT414D82BULG4FAC",
+      "numberPlate": "S-OQ2960",
+      "position": {
+        "latitude": 48.76584655711784,
+        "longitude": 9.169358623363014
+      },
+      "fuel": 0.7,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 139,
+      "locationId": 3,
+      "vin": "1GKGC26U2YAUXLTFR",
+      "numberPlate": "S-YF9216",
+      "position": {
+        "latitude": 48.792760672945256,
+        "longitude": 9.172727429527253
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 140,
+      "locationId": 3,
+      "vin": "TRUDD38J89805JTVS",
+      "numberPlate": "S-KT3098",
+      "position": {
+        "latitude": 48.731944439976914,
+        "longitude": 9.188082931423644
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 141,
+      "locationId": 3,
+      "vin": "1GTHP32K3XD7ENE1F",
+      "numberPlate": "S-PL6357",
+      "position": {
+        "latitude": 48.78352905693665,
+        "longitude": 9.162207995234173
+      },
+      "fuel": 0,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 142,
+      "locationId": 3,
+      "vin": "TRUKFAFKXBTXWUKB5",
+      "numberPlate": "S-DD5894",
+      "position": {
+        "latitude": 48.8146829913111,
+        "longitude": 9.127599034804112
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 143,
+      "locationId": 3,
+      "vin": "2GTGK29122LKALSYD",
+      "numberPlate": "S-AF9360",
+      "position": {
+        "latitude": 48.79083135062311,
+        "longitude": 9.15058302411398
+      },
+      "fuel": 1,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 144,
+      "locationId": 3,
+      "vin": "1FMCU01B02R0MG34U",
+      "numberPlate": "S-FN8982",
+      "position": {
+        "latitude": 48.75965352989595,
+        "longitude": 9.150482619469473
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 145,
+      "locationId": 3,
+      "vin": "1GBWGJEG3BC8NGYKE",
+      "numberPlate": "S-BF3636",
+      "position": {
+        "latitude": 48.82963550482715,
+        "longitude": 9.125334848003982
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 146,
+      "locationId": 3,
+      "vin": "3D3HB16P09NVJVY57",
+      "numberPlate": "S-FH1567",
+      "position": {
+        "latitude": 48.82563636553655,
+        "longitude": 9.241123282806193
+      },
+      "fuel": 0.8,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 147,
+      "locationId": 3,
+      "vin": "1GKZ71EL4BAM6VX3D",
+      "numberPlate": "S-TF3605",
+      "position": {
+        "latitude": 48.747235322256664,
+        "longitude": 9.161870054812463
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 148,
+      "locationId": 3,
+      "vin": "1FTEF3CT1BR85C8ST",
+      "numberPlate": "S-ZN3860",
+      "position": {
+        "latitude": 48.83232240550601,
+        "longitude": 9.210879480030611
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 149,
+      "locationId": 3,
+      "vin": "1GNWGRFG2BWLADMUX",
+      "numberPlate": "S-CW8292",
+      "position": {
+        "latitude": 48.727407632199956,
+        "longitude": 9.184214849059464
+      },
+      "fuel": 0.5,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 150,
+      "locationId": 3,
+      "vin": "1GCEM69X13UR41T9R",
+      "numberPlate": "S-XE6002",
+      "position": {
+        "latitude": 48.797304002850176,
+        "longitude": 9.250451240579967
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 151,
+      "locationId": 3,
+      "vin": "1GT426EG3BM51STMR",
+      "numberPlate": "S-QS7377",
+      "position": {
+        "latitude": 48.77225643847034,
+        "longitude": 9.125174864246468
+      },
+      "fuel": 1,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 152,
+      "locationId": 3,
+      "vin": "1FTNF20PX6L2BNV8Z",
+      "numberPlate": "S-YF9593",
+      "position": {
+        "latitude": 48.798690445971566,
+        "longitude": 9.100755625390077
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 153,
+      "locationId": 3,
+      "vin": "2B3CJ5DT9B3TA1JS7",
+      "numberPlate": "S-NE5765",
+      "position": {
+        "latitude": 48.80098201643582,
+        "longitude": 9.159258057535071
+      },
+      "fuel": 0.7,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 154,
+      "locationId": 3,
+      "vin": "3D5KS26D26B0PNF4F",
+      "numberPlate": "S-IQ9984",
+      "position": {
+        "latitude": 48.83128617271053,
+        "longitude": 9.223474801419968
+      },
+      "fuel": 1,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 155,
+      "locationId": 3,
+      "vin": "2B8GT44R61WHHYBAN",
+      "numberPlate": "S-NQ7536",
+      "position": {
+        "latitude": 48.755733068762865,
+        "longitude": 9.119313265872131
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 156,
+      "locationId": 3,
+      "vin": "2C3AD36J61TMRCXMK",
+      "numberPlate": "S-MF2821",
+      "position": {
+        "latitude": 48.78822799251836,
+        "longitude": 9.090093652559677
+      },
+      "fuel": 0.6,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 157,
+      "locationId": 3,
+      "vin": "1GC0KVF81BZZH8LKX",
+      "numberPlate": "S-NN7490",
+      "position": {
+        "latitude": 48.73359899763216,
+        "longitude": 9.183733641814374
+      },
+      "fuel": 0.6,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 158,
+      "locationId": 3,
+      "vin": "4S3BH6865YUYARTPF",
+      "numberPlate": "S-FC3312",
+      "position": {
+        "latitude": 48.83045451770318,
+        "longitude": 9.202060128063014
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 159,
+      "locationId": 3,
+      "vin": "1B7KU28CX3FDBWDGY",
+      "numberPlate": "S-LY3078",
+      "position": {
+        "latitude": 48.8101527978395,
+        "longitude": 9.13924203564923
+      },
+      "fuel": 1,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 160,
+      "locationId": 3,
+      "vin": "1GTU2YDJ5BNYEZJ66",
+      "numberPlate": "S-AL1135",
+      "position": {
+        "latitude": 48.769766828533434,
+        "longitude": 9.24566750888221
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 161,
+      "locationId": 3,
+      "vin": "1GCGK231024R13LAU",
+      "numberPlate": "S-UG5471",
+      "position": {
+        "latitude": 48.81053623967256,
+        "longitude": 9.108419932997014
+      },
+      "fuel": 0,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 162,
+      "locationId": 3,
+      "vin": "5GZCZ33D37D9NXDAR",
+      "numberPlate": "S-FI6227",
+      "position": {
+        "latitude": 48.7430427348477,
+        "longitude": 9.241935594819884
+      },
+      "fuel": 0.9,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 163,
+      "locationId": 3,
+      "vin": "1D2WD66A48LMRTHYC",
+      "numberPlate": "S-CM5678",
+      "position": {
+        "latitude": 48.82566030953484,
+        "longitude": 9.212576079438444
+      },
+      "fuel": 0,
+      "model": "SMART_42_PASSION"
+    },
+    {
+      "id": 164,
+      "locationId": 3,
+      "vin": "5LMFU27L2XSJR4RR8",
+      "numberPlate": "S-PZ2470",
+      "position": {
+        "latitude": 48.80969487036434,
+        "longitude": 9.140849717070877
+      },
+      "fuel": 1,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 165,
+      "locationId": 3,
+      "vin": "WAU3VAFR0A3XJLYW1",
+      "numberPlate": "S-SS9696",
+      "position": {
+        "latitude": 48.76612676472457,
+        "longitude": 9.141977028865998
+      },
+      "fuel": 0.8,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 166,
+      "locationId": 3,
+      "vin": "1G8AV14F55RN8WJ98",
+      "numberPlate": "S-PR4516",
+      "position": {
+        "latitude": 48.816860546358576,
+        "longitude": 9.176481810223907
+      },
+      "fuel": 0.6,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 167,
+      "locationId": 3,
+      "vin": "JR2RJ1879V7JP7LJT",
+      "numberPlate": "S-HT5202",
+      "position": {
+        "latitude": 48.75483508925784,
+        "longitude": 9.254230259677449
+      },
+      "fuel": 0.1,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 168,
+      "locationId": 3,
+      "vin": "1B3JL56T34XYYWUZ8",
+      "numberPlate": "S-FI4192",
+      "position": {
+        "latitude": 48.74598742845265,
+        "longitude": 9.218728648872538
+      },
+      "fuel": 0.5,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 169,
+      "locationId": 3,
+      "vin": "2CNFLCEW0ALFBDRZH",
+      "numberPlate": "S-AI8104",
+      "position": {
+        "latitude": 48.77840383232071,
+        "longitude": 9.159007419137879
+      },
+      "fuel": 0.1,
+      "model": "SMART_42_CABRIO"
+    },
+    {
+      "id": 170,
+      "locationId": 3,
+      "vin": "1GBKP32N4Y1V8XLD4",
+      "numberPlate": "S-GD6969",
+      "position": {
+        "latitude": 48.787532054100076,
+        "longitude": 9.147656733704993
+      },
+      "fuel": 0.2,
+      "model": "DELOREAN"
+    },
+    {
+      "id": 171,
+      "locationId": 3,
+      "vin": "3GCGC74G32YNL2XC1",
+      "numberPlate": "S-RE5242",
+      "position": {
+        "latitude": 48.769145757054346,
+        "longitude": 9.133863791245696
+      },
+      "fuel": 0.4,
+      "model": "SMART_42_ELECTRIC"
+    },
+    {
+      "id": 172,
+      "locationId": 3,
+      "vin": "1GT2GVD68AWLGERYG",
+      "numberPlate": "S-IS8849",
+      "position": {
+        "latitude": 48.74751656171852,
+        "longitude": 9.116192347509388
+      },
+      "fuel": 0.3,
+      "model": "SMART_42_CABRIO"
+    }
+  ]
+}
